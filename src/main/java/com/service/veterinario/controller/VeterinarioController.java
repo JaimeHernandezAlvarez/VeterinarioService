@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-@RequestMapping("/api/v1/propietarios")
+@RequestMapping("/api/v1/veterinarios")
 public class VeterinarioController {
     @Autowired
     private VeterinarioService veterinarioService;
